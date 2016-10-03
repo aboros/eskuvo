@@ -1,0 +1,30 @@
+html { font-size: 150%; line-height: 1.33333em; }
+
+body { background: #fff url(../images/madarak.svg) no-repeat fixed right 100%; background-size: 60%; color: #3f3f3f; font-family: "Dosis", sans-serif; margin: 0; }
+
+#container { width: 94%; max-width: 960px; margin: 0 auto; }
+
+h1, h2, h3 { font-family: "Amatic SC", cursive; font-weight: 700; margin: 0; }
+
+h1 { font-size: 72px; line-height: 96px; }
+
+h2 { font-size: 62px; line-height: 96px; }
+
+h3 { font-size: 53px; line-height: 64px; }
+
+a:link, a:hover, a:active, a:visited { color: #7ccdce; text-decoration: none; }
+a:hover { color: #e9529c; }
+
+strong { color: #f16441; }
+
+#header { width: 100%; position: fixed; top: 0; right: 0; text-align: right; z-index: 100; }
+
+#content h2 { color: #e9529c; }
+
+section.panel { margin: 0; }
+
+.fader { opacity: 0; }
+
+#s-1 { margin-top: 75vh; }
+
+#s-5 { margin-bottom: 25vh; }
