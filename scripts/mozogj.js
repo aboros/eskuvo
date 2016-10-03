@@ -29,12 +29,12 @@ $(function () { // wait for document ready
     .addTo(controller);
   }
 
-  /*
   new ScrollMagic.Scene({
-    triggerElement: "#s-1"
+    triggerElement: "#s-1",
+    offset: 200
   })
   .setVelocity("#header", {opacity: 0}, {duration: 400})
   .addIndicators()
   .addTo(controller);
-  */
+
 });
