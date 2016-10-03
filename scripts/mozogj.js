@@ -17,7 +17,7 @@ $(function () { // wait for document ready
       triggerHook: 0.75
     })
     .setVelocity(elements[i], {opacity: 1}, {duration: 800})
-    // .addIndicators() // add indicators (requires plugin)
+    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
     new ScrollMagic.Scene({
@@ -25,7 +25,7 @@ $(function () { // wait for document ready
       triggerHook: 0.25
     })
     .setVelocity(elements[i], {opacity: 0}, {duration: 800})
-    // .addIndicators() // add indicators (requires plugin)
+    .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
   }
 
