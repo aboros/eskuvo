@@ -69,9 +69,11 @@ strong {
 }
 
 #header {
-  background: $color-white url(../images/madarak.svg) no-repeat scroll right 100%;
   text-align: right;
+  top: 0;
+  right: 0;
   height: 100vh;
+  position: fixed;
 }
 
 #content {
@@ -80,12 +82,24 @@ strong {
   }
 }
 
+#madarak {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 60vw;
+  opacity: 0.4;
+}
+
 section.panel {
   margin: 0;
 }
 
 .fader {
   opacity: 0;
+}
+
+#s-1 {
+  margin-top: 50vh;
 }
 
 #s-5 {

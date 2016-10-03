@@ -14,7 +14,7 @@ $(function () { // wait for document ready
   for (var i=0; i<elements.length; i++) {
     new ScrollMagic.Scene({
       triggerElement: elements[i],
-      triggerHook: 0.75
+      triggerHook: 0.9
     })
     .setVelocity(elements[i], {opacity: 1}, {duration: 800})
     .addIndicators() // add indicators (requires plugin)
@@ -22,7 +22,7 @@ $(function () { // wait for document ready
 
     new ScrollMagic.Scene({
       triggerElement: elements[i],
-      triggerHook: 0.25
+      triggerHook: 0.1
     })
     .setVelocity(elements[i], {opacity: 0}, {duration: 800})
     .addIndicators() // add indicators (requires plugin)

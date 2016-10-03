@@ -17,12 +17,16 @@ a:hover { color: #e9529c; }
 
 strong { color: #f16441; }
 
-#header { background: #fff url(../images/madarak.svg) no-repeat scroll right 100%; text-align: right; height: 100vh; }
+#header { text-align: right; top: 0; right: 0; height: 100vh; position: fixed; }
 
 #content h2 { color: #e9529c; }
+
+#madarak { position: fixed; bottom: 0; right: 0; width: 60vw; opacity: 0.4; }
 
 section.panel { margin: 0; }
 
 .fader { opacity: 0; }
+
+#s-1 { margin-top: 50vh; }
 
 #s-5 { margin-bottom: 25vh; }
