@@ -4,29 +4,30 @@ body { color: #3f3f3f; font-family: "Dosis", sans-serif; margin: 0; }
 
 #container { width: 94%; max-width: 960px; margin: 0 auto; }
 
-h1, h2, h3 { font-family: "Amatic SC", cursive; font-weight: 700; margin: 0; }
+h1, h2, h3 { font-family: "Amatic SC", cursive; font-weight: 700; margin: 1em 0 0 0; }
 
-h1 { font-size: 72px; line-height: 96px; }
+h1 { font-size: 3em; line-height: 1.33333em; }
 
-h2 { font-size: 62px; line-height: 96px; }
+h2 { font-size: 2.6em; line-height: 1.53846em; }
 
-h3 { font-size: 53px; line-height: 64px; }
+h3 { font-size: 2.2em; line-height: 1.21212em; }
 
 a:link, a:hover, a:active, a:visited { color: #7ccdce; text-decoration: none; }
 a:hover { color: #e9529c; }
 
-strong { color: #f16441; }
+strong { color: #7ccdce; }
 
-#header { text-align: right; top: 0; right: 0; height: 100vh; position: fixed; }
+#header { text-align: right; float: right; }
+#header h1, #header h2, #header h3 { line-height: normal; margin: 0; }
 
+html { min-height: 100%; background: white url(../images/madarak.svg) no-repeat fixed right bottom; background-size: auto 50%; }
+
+#content { clear: right; }
 #content h2 { color: #e9529c; }
-
-#madarak { position: fixed; bottom: 0; right: 0; width: 60vw; opacity: 0.4; }
 
 section.panel { margin: 0; }
 
-.fader { opacity: 0; }
+a.button { display: inline-block; padding: 0.3em; background-color: #7ccdce; color: #3f3f3f; }
+a.button:hover { padding: 0.2em 0.3em 0.4em 0.3em; }
 
-#s-1 { margin-top: 50vh; }
-
-#s-5 { margin-bottom: 25vh; }
+#s-5 { margin-bottom: 6.66667em; }

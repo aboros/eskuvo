@@ -9,12 +9,12 @@ $(function () { // wait for document ready
 
   // get all slides
   var elements = document.querySelectorAll(".fader")
-
+/*
   // create scene for every slide
   for (var i=0; i<elements.length; i++) {
     new ScrollMagic.Scene({
       triggerElement: elements[i],
-      triggerHook: 0.9
+      offset: 100
     })
     .setVelocity(elements[i], {opacity: 1}, {duration: 800})
     .addIndicators() // add indicators (requires plugin)
@@ -22,19 +22,19 @@ $(function () { // wait for document ready
 
     new ScrollMagic.Scene({
       triggerElement: elements[i],
-      triggerHook: 0.1
+      offset: -100
     })
     .setVelocity(elements[i], {opacity: 0}, {duration: 800})
     .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
   }
-
+*/
+/*
   new ScrollMagic.Scene({
     triggerElement: "#s-1",
-    offset: 200
   })
-  .setVelocity("#header", {opacity: 0}, {duration: 400})
+  .setVelocity("#header", {fontSize: "14px"}, {duration: 400})
   .addIndicators()
   .addTo(controller);
-
+*/
 });
