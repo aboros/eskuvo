@@ -4,13 +4,13 @@ body { color: #3f3f3f; font-family: "Dosis", sans-serif; margin: 0; }
 
 #container { width: 94%; max-width: 960px; margin: 0 auto; }
 
-h1, h2, h3 { font-family: "Amatic SC", cursive; font-weight: 700; margin: 1em 0 0 0; }
-
 h1 { font-size: 3em; line-height: 1.33333em; }
 
 h2 { font-size: 2.6em; line-height: 1.53846em; }
 
 h3 { font-size: 2.2em; line-height: 1.21212em; }
+
+h1, h2, h3 { font-family: "Amatic SC", cursive; font-weight: 700; margin: 1em 0 0 0; line-height: normal; }
 
 a:link, a:hover, a:active, a:visited { color: #7ccdce; text-decoration: none; }
 a:hover { color: #e9529c; }
